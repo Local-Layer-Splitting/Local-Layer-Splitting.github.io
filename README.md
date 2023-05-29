@@ -9,3 +9,8 @@ This page is a user guide for the Grasshopper G-code generator, which allows the
 For more information on LLS, please refer to the corresponding paper : DOI = ....
 
 ## User Guide
+
+The Grasshopper file be found here : https://github.com/Local-Layer-Splitting/GrassHopper_G-code_generator
+
+WORK IN PROGRESS
+
