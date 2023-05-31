@@ -43,7 +43,7 @@ This is the wall with the smallest layer height. For two-component silicone, we 
 
 3. Now that the parameters are defined, they need to be linked to the surfaces of the model. To do this, select the BREP functions and define the surfaces associated with each function. These functions mark the beginning of the 4-layer generation blocks (see next image). Right-click on them, then select "Set One Brep," and choose the corresponding surface on your Rhino model.
 <img width="285" src="Images/Breps_1.jpg"> 
-<img width="285" src="Images/Breps_2.jpg"> 
+<img width="285" src="Images/Breps_2.png"> 
 
 When the BREPs are defined, the Grasshopper code automatically generates the G-code. It can be seen in the yellow box on the far right.
 
