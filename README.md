@@ -49,6 +49,7 @@ When the BREPs are defined, the Grasshopper code automatically generates the G-c
 
 G-code Generation and Saving
 The G-code can be directly extracted from the visualization yellow box on the right or saved locally. To save it locally, select the save path in the "File Export & Preview" box on the left, then define the file name, and click on the save button. The Preview function does not work.
+
 <img width="285" src="Images/save.jpg"> 
 
 ### Printing
