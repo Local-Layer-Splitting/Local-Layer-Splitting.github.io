@@ -57,6 +57,7 @@ Once the G-code is generated, it can be directly printed by a 3D printer. (We re
 Our tests were conducted using a silicone 3D printer from Lynxter, model [S600D](https://lynxter.fr/en/).
 Depending on the height and size of the actuator, as well as the silicone used, it may be necessary to slow down the printing speed or adjust the chamber/bed temperature.
 
-## Credit & Contact
+## Credits & Contact
 This work was made in partenership with [Lynxter](https://lynxter.fr/en/) and the french [Institute for Future Technologies](https://dvic.devinci.fr/)
+
 For more information: brice.parilusyan@gmail.com
