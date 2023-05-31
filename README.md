@@ -24,25 +24,34 @@ The first step is to model the external surfaces of the pneumatic actuator in Rh
 Our tube is composed of 3 distinct parts:
 1. The bottom layer:
 This consists of an external surface and an optional internal surface for air intake. It is possible to omit the internal surface to obtain a continuous bottom layer. 
+
 <img width="285" src="Images/Model_3.jpg"> 
+
 2. The main wall:
 This is the wall with the largest layer height. For two-component silicone, we recommend using 2/3 of the internal nozzle diameter as the maximum layer height. A higher layer height may cause printing issues.
+
 <img width="285" src="Images/Model_2.jpg"> 
+
 3. The compressed wall:
 This is the wall with the smallest layer height. For two-component silicone, we recommend using 1/3 of the internal nozzle diameter as the maximum layer height. A lower layer height may cause printing issues.
+
 <img width="285" src="Images/Model_1.jpg"> 
 
 >Note: We have separated the two walls as main and compressed for easier understanding. The actual order is not important as long as the parameters are well defined.
 
 ### Grasshopper
 1. At the bottom left, you will find various printing parameters. It is recommended to start by defining them. The number of shells used in the paper is 1, using more outer shells might require modifications in the Grasshopper code.
+
 <img width="285" src="Images/parameters.jpg"> 
 
 2. On the far right, there are two large yellow text blocks, which are the areas for the start and end scripts of the G-code. Depending on the printer used, the start or end G-code may be different.
+
 <img width="285" src="Images/end_start_scripts.jpg"> 
 
 3. Now that the parameters are defined, they need to be linked to the surfaces of the model. To do this, select the BREP functions and define the surfaces associated with each function. These functions mark the beginning of the 4-layer generation blocks (see next image). Right-click on them, then select "Set One Brep," and choose the corresponding surface on your Rhino model.
+
 <img width="285" src="Images/Breps_1.jpg"> 
+
 <img width="285" src="Images/Breps_2.png"> 
 
 When the BREPs are defined, the Grasshopper code automatically generates the G-code. It can be seen in the yellow box on the far right.
