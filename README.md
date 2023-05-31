@@ -24,7 +24,7 @@ The first step is to model the external surfaces of the pneumatic actuator in Rh
 Our tube is composed of 3 distinct parts:
 1) The bottom layer:
 This consists of an external surface and an optional internal surface for air intake. It is possible to omit the internal surface to obtain a continuous bottom layer. 
-<img width="285" src="Images/Model_3"> 
+<img width="285" src="Images/Model_3.jpg"> 
 
 2) The main wall:
 This is the wall with the largest layer height. For two-component silicone, we recommend using 2/3 of the internal nozzle diameter as the maximum layer height. A higher layer height may cause printing issues.
